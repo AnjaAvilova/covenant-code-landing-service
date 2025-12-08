@@ -1,5 +1,5 @@
 Covenant Code Landing Service — Документация
-📦 Общая информация
+### 📦 Общая информация
 
 Проект covenant-code-landing-service — это backend для лендинга на Spring Boot 4.0.0, с базой данных PostgreSQL.
 Используемые технологии:
@@ -16,7 +16,7 @@ PostgreSQL 16 — база данных
 
 Lombok — генерация boilerplate-кода
 
-📁 Структура проекта
+### 📁 Структура проекта
 covenant-code-landing-service/
 │
 ├─ src/                        # Исходный код проекта
@@ -26,7 +26,7 @@ covenant-code-landing-service/
 ├─ credential.env              # Переменные окружения
 ├─ HELP.md                     # Эта документация
 
-⚙️ Maven (pom.xml)
+### ⚙️ Maven (pom.xml)
 Зависимости
 
 Группировка зависимостей:
