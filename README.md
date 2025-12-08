@@ -1,4 +1,4 @@
-Covenant Code Landing Service — Документация
+## Covenant Code Landing Service — Документация
 
 ### 📦 Общая информация
 
@@ -18,6 +18,7 @@ Covenant Code Landing Service — Документация
 * Lombok — генерация boilerplate-кода
 
 ### 📁 Структура проекта
+```
 covenant-code-landing-service/
 │
 ├─ src/                        # Исходный код проекта
@@ -26,39 +27,40 @@ covenant-code-landing-service/
 ├─ docker-compose.yml          # Docker Compose окружение
 ├─ credential.env              # Переменные окружения
 ├─ HELP.md                     # Эта документация
+```
 
 ### ⚙️ Maven (pom.xml)
 
-Зависимости
+### Зависимости
 
-Группировка зависимостей:
+#### Группировка зависимостей:
 
-Spring Boot Core
+* Spring Boot Core
 
-spring-boot-starter-webmvc — MVC, контроллеры, REST API
+* spring-boot-starter-webmvc — MVC, контроллеры, REST API
 
-Databases
+#### Databases
 
-spring-boot-starter-data-jpa
+* spring-boot-starter-data-jpa
 
-spring-boot-h2console — консоль H2 для dev
+* spring-boot-h2console — консоль H2 для dev
 
-com.h2database:h2 — in-memory БД для локальной разработки
+* com.h2database:h2 — in-memory БД для локальной разработки
 
-org.postgresql:postgresql — драйвер PostgreSQL
+* org.postgresql:postgresql — драйвер PostgreSQL
 
-Lombok
+#### Lombok
 
-org.projectlombok:lombok — генерация getter/setter, toString, builder
+* org.projectlombok:lombok — генерация getter/setter, toString, builder
 
-Testing
+#### Testing
 
-spring-boot-starter-security-test — тесты Security
+* spring-boot-starter-security-test — тесты Security
 
-spring-boot-starter-webmvc-test — тестирование MVC
+* spring-boot-starter-webmvc-test — тестирование MVC
 
-Build Plugins
+#### Build Plugins
 
-maven-compiler-plugin — подключение Lombok для аннотаций
+* maven-compiler-plugin — подключение Lombok для аннотаций
 
-spring-boot-maven-plugin — сборка fat JAR, исключение Lombok из финального артефакта
+* spring-boot-maven-plugin — сборка fat JAR, исключение Lombok из финального артефакта
